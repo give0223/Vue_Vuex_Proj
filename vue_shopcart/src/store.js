@@ -22,7 +22,7 @@ const store = new Vuex.Store({
       return (lesson) => {
         return state.cart.findIndex(({id}) =>{
           return id === lesson.id
-        }) !== -1;
+        }) !== -4;
       };
     },
   },
